@@ -18,14 +18,14 @@
   margin-bottom: 20px;
 }
 
-.article__cite_text {
+.article__cite-text {
   font-family: "Inter 400";
   font-size: 24px;
   line-height: 1.2;
   margin: 0;
 }
 
-.article__cite_autor {
+.article__cite-autor {
   font-family: "Inter 400";
   font-size: 16px;
   align-self: flex-end;
