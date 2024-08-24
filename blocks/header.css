@@ -2,17 +2,17 @@
   position: relative;
 }
 
-.header_logo {
+.header__logo {
   display: flex;
   margin: auto;
 }
 
-.header_content {
+.header__content {
   display: flex;
   flex-direction: column;
 }
 
-.header_title {
+.header__title {
   text-align: center;
   font-family: "inter 900";
   font-size: 96px;
@@ -20,7 +20,7 @@
   margin: 90px auto 32px auto;
 }
 
-.header_subtitle {
+.header__subtitle {
   text-align: center;
   font-family: "Inter 400";
   font-size: 30px;
@@ -28,18 +28,18 @@
   margin: 0 0 64px 0;
 }
 
-.header_image {
+.header__image {
   width: 100%;
   margin: auto;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 544px) {
-  .header_title {
+  .header__title {
     margin: 90px auto 25px auto;
     font-size: 75px;
   }
 
-  .header_subtitle {
+  .header__subtitle {
     text-align: center;
     font-family: "Inter 400";
     font-size: 30px;
@@ -48,13 +48,13 @@
 }
 
 @media screen and (max-width: 544px) and (min-width: 320px) {
-  .header_title {
+  .header__title {
     margin: 50px auto 16px auto;
     font-size: 40px;
     line-height: 1.2;
   }
 
-  .header_subtitle {
+  .header__subtitle {
     text-align: center;
     font-family: "Inter 400";
     font-size: 16px;
