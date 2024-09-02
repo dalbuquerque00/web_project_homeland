@@ -41,7 +41,7 @@
   margin: 0;
 }
 
-.place__website_title {
+.place__website-title {
   grid-area: autor;
   margin: 0;
   padding-bottom: 8px;
@@ -50,7 +50,7 @@
   line-height: 1;
 }
 
-.place__website_autor {
+.place__website-autor {
   grid-area: autor;
   margin: 0;
   font-size: 18px;
@@ -86,7 +86,7 @@
   border-radius: 4px;
 }
 
-.place__frame_link {
+.place__frame-link {
   font-family: "Inter 600";
   text-decoration: none;
   color: white;
@@ -174,7 +174,7 @@
     align-self: center;
   }
 
-  .place__frame_link {
+  .place__frame-link {
     font-size: 14px;
   }
 }
