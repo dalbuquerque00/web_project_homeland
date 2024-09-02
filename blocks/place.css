@@ -169,8 +169,9 @@
   }
 
   .place__frame {
-    max-width: 288px;
-    margin: 0 16px;
+    width: 288px;
+    margin: auto;
+    align-self: center;
   }
 
   .place__frame_link {
