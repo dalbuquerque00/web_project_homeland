@@ -1,10 +1,12 @@
 .header {
   position: relative;
+  margin: 0 148px 0 148px;
 }
 
 .header__logo {
   display: flex;
   margin: auto;
+  max-width: 254px;
 }
 
 .header__content {
@@ -32,9 +34,16 @@
   width: 100%;
   margin: auto;
   object-fit: cover;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 544px) {
+@media screen and (max-width: 1024px) {
+  .header {
+    margin: 0;
+  }
+
   .header__title {
     margin: 90px auto 25px auto;
     font-size: 75px;
@@ -49,6 +58,10 @@
 }
 
 @media screen and (max-width: 544px) and (min-width: 320px) {
+  .header {
+    margin: 0;
+  }
+
   .header__title {
     margin: 50px auto 16px auto;
     font-size: 40px;
