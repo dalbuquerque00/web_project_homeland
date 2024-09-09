@@ -47,6 +47,7 @@
   .header__title {
     margin: 90px auto 25px auto;
     font-size: 75px;
+    width: 80vw;
   }
 
   .header__subtitle {
